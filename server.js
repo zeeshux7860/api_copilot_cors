@@ -7,9 +7,9 @@ const port = process.env.PORT || 8080;
 
 // Create the CORS Anywhere server
 const corsProxy = corsAnywhere.createServer({
-    originWhitelist: [], // Allow all origins
-    requireHeader: ['origin', 'x-requested-with'],
-    removeHeaders: ['cookie', 'cookie2'],
+    // originWhitelist: [], // Allow all origins
+    // requireHeader: ['origin', 'x-requested-with'],
+    // removeHeaders: ['cookie', 'cookie2'],
 });
 
 // Use Express to handle requests
